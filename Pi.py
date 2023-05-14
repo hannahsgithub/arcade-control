@@ -1,3 +1,7 @@
+#To be used on the RaspberryPi
+#Creates a socket server that sends the signals converted from wired joystick + ADC0834 to the client as bytes
+#Configure IP of client below
+
 import socket
 import RPi.GPIO as GPIO
 import ADC0834

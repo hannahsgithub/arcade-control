@@ -1,3 +1,8 @@
+#To be used on client
+#Receives bytes from RPi that has the controls wired to,
+#Outputs corresponding controls on the client that is running the video game
+#Controls can be configured
+
 import socket
 from pynput.keyboard import Key, Controller
 import time
