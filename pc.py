@@ -8,7 +8,6 @@ keyboard = Controller()
 bufferSize = 1024
 ServerPort = 2000
 lastKey = None
-# ServerIP = "192.168.1.133"
 
 # Make socket
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as PCsocket:

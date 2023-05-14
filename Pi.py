@@ -7,7 +7,7 @@ from pynput.keyboard import Key, Controller
 BtnPin = 22
 bufferSize = 1024
 ServerPort = 2000
-PCip = "192.168.1.120" #change to ip of the client/monitor/output
+PCip = "111.111.1.111" #Change to ip of the client/monitor/output
 
 # Make socket
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as RPIsocket:
@@ -39,16 +39,16 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as RPIsocket:
             Btn_val = GPIO.input(BtnPin)
        
         # Map joystick input to keyboard keys
-            if y_val < 117: # Middle is 127
+            if y_val < 117: # Neutral is 127
                 key_name = 'w'
-            elif y_val > 137: # Middle is 127
+            elif y_val > 137: # Neutral is 127
                 key_name = 's'
             else:
                 key_name = None
            
-            if x_val < 121: # Middle is 131
+            if x_val < 121: # Neutral is 131
                 key_name = 'a'
-            elif x_val > 141: # Middle is 131
+            elif x_val > 141: # Neutral is 131
                 key_name = 'd'
            
             if key_name:
