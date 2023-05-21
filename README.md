@@ -28,5 +28,4 @@ This project integrates an analog joystick (from the SunFounder DaVinci Kit) wit
 
 ## Usage
 
-1. Run the Python program on both client and Raspberry Pi
-2. Enjoy playing your game using your diy joystick!
+Run the Python program on both client and Raspberry Pi
