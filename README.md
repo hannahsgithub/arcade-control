@@ -4,9 +4,9 @@ This project integrates an analog joystick (from the SunFounder DaVinci Kit) wit
 
 ## Features
 
-- Connect and interface an analog joystick with Raspberry Pi.
-- Python program that maps joystick outputs to your game controls.
-- Communication mechanism using Python and the Socket library for transmitting, receiving, and decoding control signal for the client-end.
+- Connects and interfaces an analog joystick with Raspberry Pi.
+- Python programs that maps joystick outputs to your game controls.
+- A communication mechanism using Python and the Socket library for transmitting, receiving, and decoding control signal for the client-end.
 
 - ![pi](https://github.com/hannahsgithub/arcade-control/assets/122186988/129a143d-2c42-434f-a329-996a548293ac)
 
@@ -23,7 +23,7 @@ This project integrates an analog joystick (from the SunFounder DaVinci Kit) wit
 2. Install the required dependencies and ensure Raspberry Pi is up to date
 3. Connect the analog joystick to the GPIO pins according to the pin mapping in the `pi.py` file, or however you'd like.
 4. Set up your game on the client device
-5. Configure game controls within the code (default set to W A S D)
+5. Configure game controls within the code (default set to W A S D, and F as an extra input)
 6. Configure your IP address within the code
 
 ## Usage
