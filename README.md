@@ -22,7 +22,7 @@ This project integrates an analog joystick (from the SunFounder DaVinci Kit) wit
 1. Clone the repository to your Raspberry Pi (`pi.py`) and client device (`pc.py`). For Pi, also clone `ADC0834.py`.
 2. Install the required dependencies and ensure Raspberry Pi is up to date
 3. Connect the analog joystick to the GPIO pins according to the pin mapping in the `pi.py` file, or however you'd like.
-4. Set up your game on the client device
+4. Set up your game on the client device (I used NGINX)
 5. Configure game controls within the code (default set to W A S D, and F as an extra input)
 6. Configure your IP address within the code
 
