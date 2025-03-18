@@ -1,6 +1,6 @@
 # Raspberry Pi Controls Integration
 
-This project integrates an analog joystick (from the SunFounder DaVinci Kit) with Raspberry Pi's GPIO pins and can output five different control commands.
+This project integrates an analog joystick (from the SunFounder DaVinci Kit) with Raspberry Pi's GPIO pins and can output five different control commands. For https://www.restomaynard.ca/
 
 ## Features
 
